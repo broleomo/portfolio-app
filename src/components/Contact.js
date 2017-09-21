@@ -13,7 +13,7 @@ export default class Contact extends Component {
   render(){
     return(
       <div className="connect-info">
-      <h1> Connect with me!</h1>
+      <h1 className="headings"> Connect with me!</h1>
       <h3> Reach out to me with any questions you have! I have a lot of knowledge and am a low-key genius.</h3>
       <div className="social-icons">
         <img src={EmailLogo} width="60px"/>
